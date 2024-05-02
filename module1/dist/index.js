@@ -1,3 +1,3 @@
 "use strict";
-var start = "bismillah";
+let start = "bismillah";
 console.log(start);
