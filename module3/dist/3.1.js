@@ -1,4 +1,5 @@
 "use strict";
+// Class And Object
 {
     // OOP --> class
     class Animal {
