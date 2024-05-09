@@ -12,7 +12,9 @@
         contactNo: "01700000000",
         address: "Bangladesh",
     };
-    const { contactNo, name: { middleName, lastName }, } = user;
+    const { contactNo, // we can not expresively diclear the type here. becouse work the Name Alias
+    name: { middleName: midName, // it's call "Name Alias"
+    lastName, }, } = user;
     // Array destructuring
     const friends = ["Akib", "Bakib", "Cakib", "Dakib", "Eakib"];
     const [, , bestFriend, ...rest] = friends;

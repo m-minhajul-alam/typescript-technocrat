@@ -14,8 +14,11 @@
   };
 
   const {
-    contactNo,
-    name: { middleName, lastName },
+    contactNo, // we can not expresively diclear the type here. becouse work the Name Alias
+    name: {
+      middleName: midName, // it's call "Name Alias"
+      lastName,
+    },
   } = user;
 
   // Array destructuring
